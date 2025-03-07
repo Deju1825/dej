@@ -14,7 +14,7 @@ class Task(models.Model):
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Pending')
 
     def save(self, *args, **kwargs):
-        if self.status != 'Completed':  # Allow manual "Completed" status
+        if self.status != 'Completed':
             if self.due_date < date.today():
                 self.status = 'Overdue'
             else:
