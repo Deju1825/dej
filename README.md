@@ -1,5 +1,5 @@
 -CLONE REPOSITORY-
-git clone https://github.com/yourusername/django-task-manager.git
+git clone [https://github.com/yourusername/django-task-manager.git](https://github.com/Deju1825/dej.git)
 cd django-task-manager
 
 -VIRTUAL ENVIRONMENT-
